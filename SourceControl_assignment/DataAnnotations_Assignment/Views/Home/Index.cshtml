@@ -1,0 +1,42 @@
+﻿@model DataAnnotations_Assignment.Models.WebForm_Demo
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Web Form - Demo</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        @Html.LabelFor(model => model.Name) &nbsp; @Html.TextBoxFor(model => model.Name, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Age) &nbsp; @Html.TextBoxFor(model => model.Age, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Age, "", new { @class = "text-danger" })
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.Gender) &nbsp;
+        @Html.RadioButtonFor(model => model.Gender, "Male")@Html.Label("Male") &nbsp;
+        @Html.RadioButtonFor(model => model.Gender, "Female")@Html.Label("Female")
+        @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.MobileNo) &nbsp; @Html.TextBoxFor(model => model.MobileNo, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.MobileNo, "", new { @class = "text-danger" })
+    </p>
+
+    <p>
+        @Html.LabelFor(model => model.EmailID) &nbsp; @Html.TextBoxFor(model => model.EmailID, "", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EmailID, "", new { @class = "text-danger" })
+    </p>
+
+    <input type="submit" value="submit" class="btn-btn-info" />
+    @Html.Raw(ViewData["SuccessMessage"])
+}
+
+
