@@ -1,0 +1,13 @@
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.exe
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.deps.json
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.runtimeconfig.json
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.runtimeconfig.dev.json
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.dll
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\bin\Debug\netcoreapp3.1\UnitTest_2.pdb
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.AssemblyInfoInputs.cache
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.AssemblyInfo.cs
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.csproj.CoreCompileInputs.cache
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.dll
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.pdb
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.genruntimeconfig.cache
+C:\Users\Sneh\source\repos\UnitTest_2\UnitTest_\obj\Debug\netcoreapp3.1\UnitTest_2.csprojAssemblyReference.cache
