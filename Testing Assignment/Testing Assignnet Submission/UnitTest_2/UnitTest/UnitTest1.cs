@@ -6,144 +6,163 @@ namespace UnitTest
 {
     public class UnitTest1
     {
+        //testing method to convert string into upper case
         [Fact]
-        public void ConvertToUpper1()
+        public void ConvertToUpper_mthd1()
         {
-            string a = "input";
-            string result = a.ConvertToUpper();
+            string str = "input";
+            string result = str.ConvertToUpper();
             Assert.Equal("INPUT", result);
         }
         [Fact]
-        public void ConvertToUpper2()
+        public void ConvertToUpper_mthd2()
         {
-            string a = "input";
-            string result = a.ConvertToUpper();
+            string str = "input";
+            string result = str.ConvertToUpper();
             Assert.NotEqual("Input", result);
         }
+
+        //testing method to convert string into lower case
         [Fact]
-        public void ConvertToLower1()
+        public void ConvertToLower_mthd1()
         {
-            string a = "INPUT";
-            string result = a.ConvertToLower();
+            string str = "INPUT";
+            string result = str.ConvertToLower();
             Assert.Equal("input", result);
         }
         [Fact]
-        public void ConvertToLower2()
+        public void ConvertToLower_mthd2()
         {
-            string a = "INPUT";
-            string result = a.ConvertToLower();
+            string str = "INPUT";
+            string result = str.ConvertToLower();
             Assert.NotEqual("Input", result);
         }
+
+        //testing method to convert the string to Sentence Case
         [Fact]
-        public void ConvertToTitleCase1()
+        public void ConvertToTitleCase_mthd1()
         {
-            string a = "this is a demo";
-            string result = a.ConvertToTitleCase();
+            string str = "this is a demo";
+            string result = str.ConvertToTitleCase();
             Assert.Equal("This Is A Demo", result);
         }
         [Fact]
-        public void ConvertToTitleCase2()
+        public void ConvertToTitleCase_mthd2()
         {
-            string a = "this is a demo";
-            string result = a.ConvertToTitleCase();
+            string str = "this is a demo";
+            string result = str.ConvertToTitleCase();
             Assert.NotEqual("This Is A demo", result);
         }
+
+        //testing method to check is string in lower method or not
         [Fact]
-        public void IsLower1()
+        public void IsLower_mthd1()
         {
-            string a = "input";
-            bool result = a.IsLower();
+            string str = "input";
+            bool result = str.IsLower();
             Assert.True(result);
         }
         [Fact]
-        public void IsLower2()
+        public void IsLower_mthd2()
         {
-            string a = "Input";
-            bool result = a.IsLower();
+            string str = "Input";
+            bool result = str.IsLower();
             Assert.False(result);
         }
+
+        //testing method to check is string in upper case or not
         [Fact]
-        public void IsUpper1()
+        public void IsUpper_mthd1()
         {
-            string a = "INPUT";
-            bool result = a.IsUpper();
+            string str = "INPUT";
+            bool result = str.IsUpper();
             Assert.True(result);
         }
         [Fact]
-        public void IsUpper2()
+        public void IsUpper_mthd2()
         {
-            string a = "iNpUt";
-            bool result = a.IsUpper();
+            string str = "iNpUt";
+            bool result = str.IsUpper();
             Assert.False(result);
         }
+
+        //testing method to convert the letter to Capitalize
         [Fact]
-        public void ConvertToCapitalize1()
+        public void ConvertToCapitalize_mthd1()
         {
-            string a = "this is a demo";
-            string result = a.ConvertToCapitalize();
+            string str = "this is a demo";
+            string result = str.ConvertToCapitalize();
             Assert.Equal("This is a demo", result);
         }
         [Fact]
-        public void ConvertToCapitalize2()
+        public void ConvertToCapitalize_mthd2()
         {
-            string a = "this is a demo";
-            string result = a.ConvertToCapitalize();
+            string str = "this is a demo";
+            string result = str.ConvertToCapitalize();
             Assert.NotEqual("This Is A Demo", result);
         }
+
+        //testing method to count total words in a string
         [Fact]
-        public void CountingTotalWord1()
+        public void CountingTotalWord_mthd1()
         {
-            string a = "this is a demo";
-            int result = a.CountingWord();
+            string str = "this is a demo";
+            int result = str.CountingWord();
             Assert.Equal(4, result);
         }
         [Fact]
-        public void CountingTotalWord2()
+        public void CountingTotalWord_mthd2()
         {
-            string a = "this is a demo";
-            int result = a.CountingWord();
+            string str = "this is a demo";
+            int result = str.CountingWord();
             Assert.NotEqual(1, result);
         }
+
+        //testing method to remove last charater from string
         [Fact]
-        public void RemoveLastCharacterFrom1()
+        public void RemoveLastCharacterFrom_mthd1()
         {
-            string a = "input";
-            string result = a.RemoveLastCharacterFrom();
+            string str = "input";
+            string result = str.RemoveLastCharacterFrom();
             Assert.Equal("inpu", result);
         }
         [Fact]
-        public void RemoveLastCharacterFrom2()
+        public void RemoveLastCharacterFrom_mthd2()
         {
-            string a = "input";
-            string result = a.RemoveLastCharacterFrom();
+            string str = "input";
+            string result = str.RemoveLastCharacterFrom();
             Assert.NotEqual("inp", result);
         }
+
+        //testing method to check wether the number is valid numeric or not 
         [Fact]
-        public void IsValidNumeric1()
+        public void IsValidNumeric_mthd1()
         {
-            string a = "2012";
-            bool result = a.IsValidNumeric();
+            string str = "2012";
+            bool result = str.IsValidNumeric();
             Assert.True(result);
         }
         [Fact]
-        public void IsValidNumeric2()
+        public void IsValidNumeric_mthd2()
         {
-            string a = "2012H";
-            bool result = a.IsValidNumeric();
+            string str = "2012H";
+            bool result = str.IsValidNumeric();
             Assert.False(result);
         }
+
+        //testing method to convert the string to number
         [Fact]
-        public void ConvertStringToNumber1()
+        public void ConvertStringToNumber_mthd1()
         {
-            string a = "2012";
-            int? result = a.ConvertStringToNumber();
+            string str = "2012";
+            int? result = str.ConvertStringToNumber();
             Assert.Equal(1929, result);
         }
         [Fact]
-        public void ConvertStringToNumber2()
+        public void ConvertStringToNumber_mthd2()
         {
-            string a = "2012H";
-            int? result = a.ConvertStringToNumber();
+            string str = "2012H";
+            int? result = str.ConvertStringToNumber();
             Assert.Null(result);
         }
     }

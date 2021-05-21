@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hardi.mehta\\Desktop\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj": {}
+    "C:\\Users\\hardi.mehta\\Documents\\Trainings_Assignment\\Testing Assignments\\Testing Assignmnet Submission\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hardi.mehta\\Desktop\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj": {
+    "C:\\Users\\hardi.mehta\\Documents\\Trainings_Assignment\\Testing Assignments\\Testing Assignmnet Submission\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hardi.mehta\\Desktop\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj",
+        "projectUniqueName": "C:\\Users\\hardi.mehta\\Documents\\Trainings_Assignment\\Testing Assignments\\Testing Assignmnet Submission\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj",
         "projectName": "UnitTest_2",
-        "projectPath": "C:\\Users\\hardi.mehta\\Desktop\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj",
+        "projectPath": "C:\\Users\\hardi.mehta\\Documents\\Trainings_Assignment\\Testing Assignments\\Testing Assignmnet Submission\\UnitTest_2\\UnitTest_\\UnitTest_2.csproj",
         "packagesPath": "C:\\Users\\hardi.mehta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hardi.mehta\\Desktop\\UnitTest_2\\UnitTest_\\obj\\",
+        "outputPath": "C:\\Users\\hardi.mehta\\Documents\\Trainings_Assignment\\Testing Assignments\\Testing Assignmnet Submission\\UnitTest_2\\UnitTest_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hardi.mehta\\AppData\\Roaming\\NuGet\\NuGet.Config",
